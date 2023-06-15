@@ -2,45 +2,79 @@
 <html>
 <head>
   <title>My Webpage</title>
-  <!-- Include Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <div class="container mt-5">
-    <div class="jumbotron text-center">
-      <h1 class="display-4">Hello there! How are you?</h1>
-    </div>
+  <div class="container">
+    <h1>Hello there! How are you?</h1>
   
-    <div class="row">
-      <div class="col-md-6">
-        <h2>AI Links</h2>
-        <ul class="list-group">
-          <li class="list-group-item"><a href="https://www.chatgpt.com">ChatGPT</a></li>
-          <li class="list-group-item"><a href="https://www.openai.com">OpenAI</a></li>
-          <li class="list-group-item"><a href="https://www.tensorflow.org">TensorFlow</a></li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h2>Graphic Design Websites</h2>
-        <ul class="list-group">
-          <li class="list-group-item"><a href="https://www.adobe.com">Adobe</a></li>
-          <li class="list-group-item"><a href="https://www.canva.com">Canva</a></li>
-          <li class="list-group-item"><a href="https://www.behance.net">Behance</a></li>
-        </ul>
-      </div>
-    </div>
+    <h2>AI Links</h2>
+    <ul>
+      <li><a href="https://www.chatgpt.com">ChatGPT</a></li>
+      <li><a href="https://www.openai.com">OpenAI</a></li>
+      <li><a href="https://www.tensorflow.org">TensorFlow</a></li>
+    </ul>
   
-    <div class="mt-4">
-      <h2>General Links</h2>
-      <ul class="list-group">
-        <li class="list-group-item"><a href="https://www.google.com">Google</a></li>
-        <li class="list-group-item"><a href="https://www.wikipedia.org">Wikipedia</a></li>
-        <li class="list-group-item"><a href="https://www.youtube.com">YouTube</a></li>
-      </ul>
-    </div>
+    <h2>Graphic Design Websites</h2>
+    <ul>
+      <li><a href="https://www.adobe.com">Adobe</a></li>
+      <li><a href="https://www.canva.com">Canva</a></li>
+      <li><a href="https://www.behance.net">Behance</a></li>
+    </ul>
+  
+    <h2>General Links</h2>
+    <ul>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+      <li><a href="https://www.youtube.com">YouTube</a></li>
+    </ul>
   </div>
-  
-  <!-- Include Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
